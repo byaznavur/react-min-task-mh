@@ -1,0 +1,44 @@
+.intro {
+  min-height: calc(100vh - 40px);
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  h2 {
+    text-align: center;
+  }
+
+  .form-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    input {
+      padding: 10px;
+    }
+
+    .input-name {
+      color: #5fcf2b;
+      border-radius: 8px;
+    }
+    .input-number {
+      color: #6491af;
+      border-radius: 25px;
+    }
+    .input-password {
+      color: #386dce;
+      border-radius: 15px;
+    }
+    .input-email {
+      color: #d33e3e;
+      border-radius: 12px;
+    }
+    .input-date {
+      color: #c4c722;
+      border-radius: 5px;
+    }
+  }
+}
